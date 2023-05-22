@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NAMYA - Portfolio</title>
+  <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <!-- Scroll Top Button -->
+  <div class="scroll-top">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7l4-4m0 0l4 4m-4-4v18" />
+    </svg>
+  </div>
+  <!-- Navigation -->
+  <section id="navigation">
+    <div class="nav-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </div>
+  </section>
+  <div id="nav-content">
+    <div class="close-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </div>
+    <div class="wrapper">
+      <h2 class="section-heading">Menu</h2>
+      <nav>
+        <ul>
+          <li><a data-text="Home" href="./index.html#hero">Home</a></li>
+          <li><a data-text="About" href="./index.html#about">About</a></li>
+          <li><a data-text="Projects" href="./index.html#projects">Projects</a></li>
+          <li><a data-text="Testimonial" href="./index.html#testimonial">Testimonial</a></li>
+          <li><a data-text="Contact" href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero section -->
+  <section id="hero">
+    <div class="container">
+      <div class="left">
+        <p class="subheading">WELCOME</p>
+        <h2 class="heading">
+          <div class="wrapper"><span>I'm</span></div>
+          <div class="wrapper"><span>Namya</span></div>
+          <div class="wrapper"><span>Chandel</span></div>
+        </h2>
+        <p class="desc">Passionate web developer dedicated to creating innovative and engaging online experiences. 
+          Continuously seeking to learn and incorporate the latest technologies and trends.</p>
+        <div class="buttons">
+          <a href="#projects" class="primary-btn">My Resume</a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="right">
+        <img src="WhatsApp Image 2023-04-13 at 00.23.32.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- services Section -->
+  <section id="services">
+    <div class="container">
+      <h2 class="section-heading" data-outline="SKILLS">SKILLS</h2>
+      <div class="all-items">
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="item-heading">Web Design</h3>
+          <p class="item-desc">I am a budding developer learning different technologies for better performance website with blazing fast speed. Website with high
+            performance can lead the visitor more. </p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+            </svg>
+          </div>
+          <h3 class="item-heading">UI/UX</h3>
+          <p class="item-desc">I am learning ui/ux design for the website that assists website to get an outstanding look. Unique
+            design creates an unique personality for websites.</p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
+            </svg>
+          </div>
+          <h3 class="item-heading">DSA</h3>
+          <p class="item-desc"> Data structures are essential for organizing and manipulating information efficiently, enabling faster and more accurate processing of large volumes of data.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- stats Section -->
+  <section id="stats">
+    <div class="container">
+      <h2 class="section-heading" data-outline="Academics">Academics</h2>
+      <div class="all-items">
+        <div class="item">
+          <h2 class="number">9.0</h2>
+          <h3 class="stats-sub-heading">COLLEGE GPA</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum ex nesciunt culpa, velit cupiditate consequuntur possimus facilis unde. 
+            Eius ullam obcaecati deleniti quos repellat, tempore corporis alias totam aspernatur accusamus.</p>
+        </div>
+        <div class="item">
+          <h2 class="number">9.4</h2>
+          <h3 class="stats-sub-heading">12th Standard</h3>
+          <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Tenetur repellendus pariatur tempora officiis suscipit provident velit 
+            eligendi ab vitae ipsam illo nam vel labore delectus iste aspernatur, accusamus, fugiat consequuntur.</p>
+        </div>
+        <div class="item">
+          <h2 class="number">9.6</h2>
+          <h3 class="stats-sub-heading">10th Standard</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur doloremque eveniet cum praesentium obcaecati porro, quibusdam fugit? Delectus, mollitia velit! Saepe quia
+             similique temporibus quae, explicabo voluptatum tempore culpa iusto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END Stats Section -->
+
+
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-heading" data-outline="about">About</h2>
+      <div class="wrapper">
+        <div class="left">
+          <div class="card">
+           
+            <p class="card-desc"> <br><br> <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nostrum, eaque iusto sequi repudiandae, sed nam repellat voluptate, hic deleniti inventore voluptatibus sint nesciunt reiciendis doloremque. Odit tempore voluptate porro.</p>
+          
+          </div>
+        </div>
+        <div class="right">
+          <p class="subheading">HEY</p>
+          <h2 class="slogan">THIS IS NAMYA CHANDEL</h2>
+          <p class="right-text">As an engineering student interested in web development, I have a strong foundation in problem-solving and technical skills.My interest in web development shows a desire to apply my engineering knowledge to create user-friendly and dynamic web applications. Keep learning and practicing the latest web technologies to stay ahead in this rapidly-evolving field.
+          </p>
+          <div class="buttons">
+            <a href="Namya Chandel_Resume.pdf" class="primary-btn" download="">Download Resume</a>
+            <a href="./contact.html" class="primary-btn outline">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-heading" data-outline="Projects">Projects</h2>
+      <div class="all-items">
+        <div class="item">
+          <div class="left">
+            
+          </div>
+          <div class="right">
+            <h2 class="project-title">Inventory Mangement System</h2>
+            <h3 class="project-sub-title">Online management System .</h3>
+            <p class="project-desc"> Stores every information electronically and in an organized and systematic way which leads to effective results. <br>
+             
+               The software is designed in such a way that it modernizes the inventory management system 
+               and help access the huge stock records much more easily and quickly.</p>
+            <div class="buttons">
+              <a href="#" class="primary-btn">Know More</a>
+              <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        
+
+  <!-- Footer Section -->
+  <section id="footer">
+    <div class="container">
+      <footer>
+        <div class="col-1">
+          
+          <form  action="func.php" method="post">
+            <label>First Name:</label><input type="text" name="fname" placeholder="enter first name" required/><br>
+                <label>Email ID:</laDDbel><input type="text" name="email" placeholder="enter email id"required/><br>
+                  <label>Phone</label><input type="text" name="contact"placeholder="enter last name"required/><br>    
+               
+                
+    <br> 
+    <button type="submit" id="inputbtn" name="pat_submit" class="btn" >Register<button>                                
+       </form>
+
+          
+        </div>
+        <div class="col-2">
+          <h2 class="column-heading">Links</h2>
+          <ul>
+            <li><a href="./index.html#home">Home</a></li>
+            <li><a href="./index.html#about">About</a></li>
+           
+            <li><a href="./index.html#Project">Project</a></li>
+           
+          </ul>
+        </div>
+        <div class="col-3">
+          <h2 class="column-heading">Contact<br>Info</h2>
+          <ul>
+            <li><a href="#">Chandel.namya@gmail.com</a></li>
+            <li><a href="#">+123456789</a></li>
+            <li><a href="#">India</a></li>
+          </ul>
+        </div>
+        
+      </footer>
+    </div>
+  </section>
+  <section id="copyright">
+    <div class="container">
+      <p> &copy; Made by Namya Chandel.</p>
+    </div>
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
